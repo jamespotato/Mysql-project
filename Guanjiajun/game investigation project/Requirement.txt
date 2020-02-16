@@ -1,0 +1,13 @@
+1.The equipment company wants to keep trac of the equpiment's rental and sale situation to the Sale Rep.
+2.For each equipment:a last-inspect-Date, a unique Serial number,a DateMade.
+3.For each equipment detail:a unique ID, attribute make,type,and model.
+4.For each customer: a unique ID, name, customer category.
+5.For each sale Rep: a unique ID, and a Sale Rep name(which consists of last name and first name), rank.
+6.Every time the sale Rep rents a car, the company will keep track of the date, price, and also unique ID.
+7.Every time the sale Rep sells a car, the company will keep track of the date, price, and also a unique ID. 
+8.Each equipment has one equipment detail, and each detail main be included in one or many equipments.
+9.Each equipment's rental could be conduted by zero or many Sale Rep,and one Sale Rep can conduct zero or many rentals of the equipment. 
+10.Each equipment's sale could be conduted by zero or many Sale Rep,and one Sale Rep can conduct zero or many sales of the equipment.  
+11.Each equipment can be rented by zero or many customers, and each customer can rent zero to many sets of equipemnt. (Here we define the unit of the equipment is set)
+12.Each equipmnet can be bought by zero or many customers, and each customer can buy zero to many sets of equipment. 
+13.Each Sale Rep is proteged byone mentor, and one Sale_Rep mentor could mentor for zero to three Sale Rep.
